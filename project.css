@@ -1,0 +1,49 @@
+/* Navbar styles */
+.navbar {
+    background-color: #333; /* Dark background */
+    overflow: hidden; /* Ensures the navbar contains all its content */
+    width: 100%; /* Full width */
+    position: fixed; /* Sticks to the top of the page */
+    top: 0;
+    left: 0;
+}
+
+/* Navbar list styles */
+.navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    display: flex; /* Horizontal layout for links */
+    justify-content: right; /* Centers links in navbar */
+    gap: 30px; /* Space between links */
+}
+
+/* Navbar list item styling */
+.navbar ul li {
+    padding: 14px 20px; /* Padding around each list item */
+}
+
+/* Navbar link styling */
+.navbar ul li a {
+    color: white; /* White text for links */
+    text-align: center;
+    text-decoration: none; /* Removes underline */
+    font-size: 18px; /* Font size for links */
+    font-weight: bold; /* Bold links for emphasis */
+    display: block; /* Ensures the link covers the entire clickable area */
+    padding: 10px 15px; /* Reduces padding inside links */
+}
+
+/* STEP 6: Add a hover effect for navbar links so that they turn a different color*/
+
+/* Main body styles */
+body {
+    padding-top: 60px; /* Accounts for fixed navbar space */
+    width: 100%; /* Ensure it spans full width */
+    font-family: 'Inter', sans-serif; /* Sets the main font */
+    min-height: 100vh; /* Ensures the body takes up full height */
+    display: flex;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Aligns items horizontally in the center */
+    flex-direction: column; /* Aligns content in a column */
+}
