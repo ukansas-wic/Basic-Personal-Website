@@ -34,7 +34,11 @@
     padding: 10px 15px; /* Reduces padding inside links */
 }
 
-/* STEP 6: Add a hover effect for navbar links so that they turn a different color*/
+/* STEP 5: Add a hover effect for navbar links so that they turn a different color*/
+/* Hover effect for navbar links */
+.navbar ul li a:hover {
+    color: #ED8BA2; /* Grey color on hover */
+}
 
 /* Main body styles */
 body {
@@ -142,7 +146,16 @@ body {
     margin-right: auto; /* Centers the container */
 }
 
-/* STEP 7: Define styles for the profile's details section */
+/* Grid layout for profile details */
+/* STEP 6: Define styles for the profile's details section */
+.details-container .profile-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 30px; /* Space between grid items */
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
 
 /* Individual detail item styling */
 .detail-item h3 {
