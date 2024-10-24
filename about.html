@@ -4,45 +4,57 @@
     <meta charset="UTF-8">
     <!-- Ensures proper scaling on all devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <!-- STEP 1: Make the title of the browser your name -->
+    <!-- Page title displayed in the browser tab -->
+    <title>First Last</title>
 
-    <!-- Importing Google Fonts: Inter font family -->
+    <!-- Google Fonts: Inter font family for better typography -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
-    <!-- Importing external stylesheet link for page-specific styles -->
+    <!-- External stylesheet link for page-specific styles -->
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <nav>
-        <!-- STEP 5: Create a navigation bar with links to other pages of the website
-        including About (current page) and Projects -->
-        
+    <!-- STEP 5: Create a navigation bar with links to other pages of the website
+                 including About (current page) and Projects -->
+    <!-- Navigation bar at the top of the page -->
+    <nav class="navbar">
+        <ul>
+            <!-- Links to other pages of the website -->
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+        </ul>
     </nav>
-    
+
     <!-- Container for profile image and information -->
     <div class="profile-container">
         <div class="profile-header">
+
+            <!-- STEP 2: Include a picture -->
             <!-- Profile image section -->
             <div class="profile-image">
-                <!-- STEP 2: Include a picture -->
-
+                <!-- Placeholder for profile picture -->
+                <img src="temp_picture.jpg">
             </div>
             
             <!-- Profile information section -->
             <div class="profile-info">
                 <!-- STEP 3: Add your name, email, and a little intro blurb about yourself -->
                 <!-- Name -->
+                <h1>First Last</h1>
 
                 <!-- Email with a clickable mailto link -->
+                <p><a href="mailto:email_address">email_address</a></p>
                 
-                <!-- Little intro blurb -->
+                <!-- Short quote or introduction -->
+                <p class="quote">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 
                 <!-- Links to social media profiles -->
                 <div class="social-links">
-                    <a href="#instagram"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram"></a>
-                    <a href="#linkedin"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
-                    <a href="#github"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
+                    <a href="#instagram link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram"></a>
+                    <a href="#linkedin_link"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
+                    <a href="#github_link"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
                 </div>
             </div>
         </div>
@@ -51,28 +63,33 @@
     <!-- Additional profile details in a grid-like layout -->
     <div class="details-container">
         <div class="profile-details">
-            <!-- Profile detail sections -->
-
+            <!-- Individual profile detail sections -->
             <!-- STEP 4: Create 6 sections for Year, Major/Minor, Hobbies, Interests, Experience, and Fun Fact 
                  Use <h3> for section title and <p> for section descriptions -->
-             
+
             <div class="detail-item">
-                <!-- Year -->
+                <h3>Year</h3>
+                <p>____</p>
             </div>
             <div class="detail-item">
-                <!-- Major/Minor -->
+                <h3>Major</h3>
+                <p>____</p>
             </div>
             <div class="detail-item">
-                <!-- Hobbies -->
+                <h3>Hobbies</h3>
+                <p>____</p>
             </div>
             <div class="detail-item">
-                <!-- Interests -->
+                <h3>Interests</h3>
+                <p>____</p>
             </div>
             <div class="detail-item">
-                <!-- Experience -->
+                <h3>Experience</h3>
+                <p>____</p>
             </div>
             <div class="detail-item">
-                <!-- Fun Fact -->
+                <h3>Fun Fact</h3>
+                <p>____</p>
             </div>
         </div>
     </div>
